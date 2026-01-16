@@ -1,16 +1,11 @@
 # project_arches
 
-Cloud project: project_arches
+Mechanical project: project_arches
 
-## Infrastructure
+## Project Structure
 
-- `infrastructure/` - Infrastructure as Code (Terraform, CloudFormation)
-- `src/` - Application code
-- `deployments/` - Deployment configurations
-
-## Deployment
-
-```bash
-terraform init
-terraform apply
-```
+- `cad/` - CAD models and assemblies
+- `drawings/` - 2D drawings for manufacturing
+- `bom/` - Bill of Materials
+- `analysis/` - FEA and simulation results
+- `manufacturing/` - Manufacturing files (G-code, etc.)

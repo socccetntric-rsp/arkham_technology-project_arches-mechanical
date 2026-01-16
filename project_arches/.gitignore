@@ -1,12 +1,7 @@
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.backup
-
-# Python
-__pycache__/
-*.py[cod]
-venv/
+# CAD
+*.bak
+*.tmp
+*.log
 
 # IDE
 .idea/

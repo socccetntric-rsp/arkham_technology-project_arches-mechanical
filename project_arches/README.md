@@ -1,17 +1,15 @@
 # project_arches
 
-Energy_Power_Experts project: project_arches
+Arches_App project: project_arches
 
-## Project Structure
+## Setup
 
-- `design/` - System design and architecture
-- `grid/` - Power grid architecture and configurations
-- `storage/` - Energy storage systems
-- `renewable/` - Renewable energy systems
-- `testing/` - Test plans and validation
-- `integration/` - System integration documentation
-- `docs/` - Technical documentation
+1. Build the application
+2. Run tests
+3. Deploy
 
-## Overview
+## Building
 
-This project contains energy and power engineering designs, grid architecture, energy storage solutions, and renewable energy systems.
+```bash
+make all
+```

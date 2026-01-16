@@ -1,21 +1,19 @@
 # project_arches
 
-Rust project: project_arches
+Mobile project: project_arches
 
-## Building
+## Setup
 
 ```bash
-cargo build
+npm install
+# or
+flutter pub get
 ```
 
 ## Running
 
 ```bash
-cargo run
-```
-
-## Testing
-
-```bash
-cargo test
+npm start
+# or
+flutter run
 ```

@@ -1,19 +1,16 @@
 # project_arches
 
-Mobile project: project_arches
+Cloud project: project_arches
 
-## Setup
+## Infrastructure
 
-```bash
-npm install
-# or
-flutter pub get
-```
+- `infrastructure/` - Infrastructure as Code (Terraform, CloudFormation)
+- `src/` - Application code
+- `deployments/` - Deployment configurations
 
-## Running
+## Deployment
 
 ```bash
-npm start
-# or
-flutter run
+terraform init
+terraform apply
 ```

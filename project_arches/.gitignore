@@ -1,13 +1,6 @@
-# Dependencies
-node_modules/
-
-# React Native
-ios/Pods/
-android/app/build/
-
-# Flutter
-.dart_tool/
-build/
+# Rust
+/target/
+Cargo.lock
 
 # IDE
 .idea/

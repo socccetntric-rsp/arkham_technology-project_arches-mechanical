@@ -1,7 +1,12 @@
-# Build artifacts
-build/
-*.o
-*.out
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
 
 # IDE
 .idea/

@@ -1,15 +1,16 @@
 # project_arches
 
-Arches_App project: project_arches
+Cloud project: project_arches
 
-## Setup
+## Infrastructure
 
-1. Build the application
-2. Run tests
-3. Deploy
+- `infrastructure/` - Infrastructure as Code (Terraform, CloudFormation)
+- `src/` - Application code
+- `deployments/` - Deployment configurations
 
-## Building
+## Deployment
 
 ```bash
-make all
+terraform init
+terraform apply
 ```

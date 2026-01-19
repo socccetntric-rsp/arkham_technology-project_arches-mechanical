@@ -1,13 +1,8 @@
-# Build artifacts
-build/
-*.bit
-*.mcs
-*.bin
-
-# Simulation
-*.vcd
-*.wlf
-*.log
+# KiCad
+*.bak
+*-backups/
+fp-info-cache
+*.kicad_prl
 
 # IDE
 .idea/

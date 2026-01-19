@@ -1,11 +1,15 @@
 # project_arches
 
-Electrical project: project_arches
+Arches_Linux project: project_arches
 
-## Project Structure
+## Setup
 
-- `schematics/` - Circuit schematics
-- `pcb/` - PCB design files
-- `bom/` - Bill of Materials
-- `gerbers/` - Manufacturing files
-- `datasheets/` - Component datasheets
+1. Install Yocto dependencies
+2. Configure build
+3. Build the image
+
+## Building
+
+```bash
+bitbake arches-image
+```

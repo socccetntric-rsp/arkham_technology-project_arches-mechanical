@@ -1,12 +1,8 @@
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.backup
-
-# Python
-__pycache__/
-*.py[cod]
-venv/
+# KiCad
+*.bak
+*-backups/
+fp-info-cache
+*.kicad_prl
 
 # IDE
 .idea/

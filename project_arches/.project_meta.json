@@ -1,8 +1,8 @@
 {
   "name": "project_arches",
   "clean_name": "project_arches",
-  "type": "cloud",
-  "description": "Cloud project: project_arches",
-  "created_at": "2026-01-19T08:56:18.905560",
+  "type": "electrical",
+  "description": "Electrical project: project_arches",
+  "created_at": "2026-01-19T19:22:30.098536",
   "workspace": "/home/sandesh/agent_workspaces/workspace/arkham_technology/project_arches"
 }
